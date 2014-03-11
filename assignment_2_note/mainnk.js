@@ -63,22 +63,22 @@ var app  = (function() {
     // all the functions that make the app run.
   };
 
-  var x = document.getElementByID("demo"); 
-  function getLocation()
-  {
-    if (navigator.geolocation)
-    {
-      navigator. geolocation.getCurrentPosition(showPosition); 
-    };
-    else {x.innerHTML = "Geolocation is not supported by this browser."}; 
+  // var x = document.getElementByID("demo"); 
+  // function getLocation()
+  // {
+  //   if (navigator.geolocation)
+  //   {
+  //     navigator. geolocation.getCurrentPosition(showPosition); 
+  //   };
+  //   else {x.innerHTML = "Geolocation is not supported by this browser."}; 
 
-  };
+  // };
 
-  function showPosition(position)
-  {
-    x.innerHTML ="Latitude:" + position.coords.latitude +" <br> Longitude: "
-    + position.coords.longitude; 
-      };
+  // function showPosition(position)
+  // {
+  //   x.innerHTML ="Latitude:" + position.coords.latitude +" <br> Longitude: "
+  //   + position.coords.longitude; 
+  //     };
   
   return {
     init : init,

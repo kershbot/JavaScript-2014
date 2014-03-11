@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<title>app</title>
+	<link rel="stylesheet" type="text/css" href="font/style.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+
+	<div class="write">
+		<form class="write-suggestion-form" action="">
+			<input type="text" class="write-suggestion">
+			<input type="submit" class="submit-suggestion" value="Add">
+		</form>
+	</div>
+
+	<div class="read">
+		<h3 class="no-notes-found hidden">	
+			You have no note saved so far. Go ahead and make some! :)
+		</h3>
+		<ul class="suggestion">
+			<!-- content coming from main.js -->
+		</ul>
+	</div>
+	<script type="text/javascript" src="router.js"></script> <!-- because we have router and main will show up as an object -->
+	<script type="text/javascript" src="main.js"></script> <!--// because we have router and main -->
+
+
+</body>
+</html>
